@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#eeeeee"
+    android:orientation="vertical"
+    android:layout_width="250dp"
+    android:layout_height="120dp"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:paddingLeft="10dp"
+        android:background="@drawable/green_rec_border">
+        <Button
+            android:id="@+id/edit_btn"
+            android:text="수정"
+            android:textSize="15sp"
+            android:textColor="@android:color/white"
+            android:layout_gravity="center"
+            android:background="@drawable/title_border"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:onClick="editonclick"
+            />
+
+    <Button
+        android:id="@+id/del_btn"
+        android:layout_marginHorizontal="20dp"
+        android:text="삭제"
+        android:textSize="15sp"
+        android:textColor="@android:color/white"
+        android:layout_gravity="center"
+        android:background="@drawable/title_border"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:onClick="delonclick"
+        />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:background="@drawable/brown_border">
+
+        <Button
+            android:id="@+id/move_do_btn"
+            android:text="DO"
+            android:textSize="15sp"
+            android:textColor="@android:color/white"
+            android:layout_gravity="center"
+            android:background="@drawable/btn_border"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:onClick="do_click"
+            />
+
+        <Button
+            android:id="@+id/move_doing_btn"
+            android:text="DOING"
+            android:textSize="15sp"
+            android:layout_marginHorizontal="10dp"
+            android:textColor="@android:color/white"
+            android:layout_gravity="center"
+            android:background="@drawable/btn_border"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:onClick="doing_click"
+            />
+
+        <Button
+            android:id="@+id/move_done_btn"
+            android:text="DONE"
+            android:textSize="15sp"
+            android:textColor="@android:color/white"
+            android:layout_gravity="center"
+            android:background="@drawable/btn_border"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:onClick="done_click"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>
